@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OTBCommon
 {
-    class AbstractDataValidator <T> : IDataValidate<T> 
+    public class AbstractDataValidator <T> : IDataValidate<T> 
     {
         public IDataValidate<T> Next
         {
